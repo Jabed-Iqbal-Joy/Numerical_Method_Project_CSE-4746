@@ -25,12 +25,10 @@ void introduction()
     //cout<< ""
     cout << "This program finds the root of a non-linear equation using Numerical method." << endl;
     cout << "Equation: f(x) = sin(x) + x^3 - 2x = 0" << endl;
-    cout << "\n\nWe will apply the numerical method to find the root of the equation.";
+    cout << "\n\nWe will apply the numerical method to find the root of this equation.";
     cout << "The approximate root will be displayed, along with the value of f(root)." << endl;
     cout << "\n\nLet's get started!" << endl;
 
-//    Sleep(8000);
-//    system("cls");
 }
 
 void menu()
@@ -300,6 +298,7 @@ void result_analysis()
     cout<<left<<setw(15)<<setfill(' ')<<fix_root;
     cout<<left<<setw(15)<<setfill(' ')<<fal_root<<endl;
     cout<<endl;
+
     cout<<left<<setw(15)<<setfill(' ')<<"Fx(Root)";
     cout<<left<<setw(15)<<setfill(' ')<<fx(b_root);
     cout<<left<<setw(15)<<setfill(' ')<<fx(nr_root);
@@ -308,7 +307,7 @@ void result_analysis()
     cout<<left<<setw(15)<<setfill(' ')<<fx(fal_root)<<endl;
     cout<<endl;
 
-    cout<<left<<setw(15)<<setfill(' ')<<"Accuracy";
+    cout<<left<<setw(15)<<setfill(' ')<<"Error";
     cout<<left<<setw(15)<<setfill(' ')<<fabs(0.000-fx(b_root));
     cout<<left<<setw(15)<<setfill(' ')<<fabs(0.000-fx(nr_root));
     cout<<left<<setw(15)<<setfill(' ')<<fabs(0.000-fx(se_root));
