@@ -13,7 +13,6 @@ void welcome()
     cout << "\t\t*        Welcome to NM Project   *" << endl;
     cout << "\t\t*                                *" << endl;
     cout << "\t\t**********************************" << endl;
-    //cout << "\t\tEnjoy your experience." << endl;
     Sleep(5000);
     system("cls");
 }
